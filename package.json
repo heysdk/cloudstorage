@@ -1,0 +1,27 @@
+{
+  "name": "cloudstorage",
+  "version": "0.2.0",
+  "description": "toolkit for cloudstorage, localfile, oss etc",
+  "main": "./index.js",
+  "keywords": [
+    "cloudstorage",
+    "cloud-storage",
+    "oss",
+    "localfile",
+    "aliyun"
+  ],
+  "repository": {
+    "url": "git://github.com/heysdk/cloudstorage.git"
+  },
+  "author": "heysdk",
+  "license": "Apache",
+  "homepage": "https://github.com/heysdk/cloudstorage",
+  "bugs": {
+    "url": "https://github.com/heysdk/cloudstorage/issues"
+  },
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "aliyun-sdk": "*",
+    "heyutils": "*"
+  }
+}
