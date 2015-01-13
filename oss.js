@@ -6,12 +6,14 @@ var ALY = require('aliyun-sdk');
 
 // cfg = { accessKeyId: xxx, secretAccessKey: xxx, endpoint:xxx }
 function init(cfg) {
-    ALY.config.update({
-        accessKeyId: cfg.accessKeyId,
-        secretAccessKey: cfg.secretAccessKey
-    });
+    //ALY.config.update({
+    //    accessKeyId: cfg.accessKeyId,
+    //    secretAccessKey: cfg.secretAccessKey
+    //});
 
     var oss = new ALY.OSS({
+        accessKeyId: cfg.accessKeyId,
+        secretAccessKey: cfg.secretAccessKey,
         endpoint: cfg.endpoint,
         apiVersion: '2013-10-15'
     });

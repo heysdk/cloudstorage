@@ -1,6 +1,6 @@
 {
   "name": "cloudstorage",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "toolkit for cloudstorage, localfile, oss etc",
   "main": "./index.js",
   "keywords": [
