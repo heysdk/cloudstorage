@@ -34,6 +34,10 @@ function readDir(bucket, dir, callback) {
         for (var i = 0; i < files.length; ++i) {
             var curpath = path.join(bucket, dir, files[i]);
             if (fileutils.isDirectory(curpath)) {
+                if (files[i] == '.svn') {
+                    continue ;
+                }
+
                 curpath = path.join(dir, files[i]);
                 readDir(bucket, curpath, callback);
             }
